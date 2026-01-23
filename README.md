@@ -1,147 +1,137 @@
-# 🧬 VISAGINAS360 AGI — Living System
+# 🧬 VISAGINAS360 AGI — Self-Evolving Artificial General Intelligence
 
-> Не программа. ЖИВАЯ СИСТЕМА которая дышит, эволюционирует и улучшает себя.
+> **Not a program. A LIVING SYSTEM that breathes, evolves, and improves itself autonomously.**
 
-## 🎯 Что это
+[![AGI Progress](https://img.shields.io/badge/AGI_Progress-75%25-brightgreen)]()
+[![Services](https://img.shields.io/badge/Services-47+-blue)]()
+[![MCP Tools](https://img.shields.io/badge/MCP_Tools-91-orange)]()
+[![Autonomous](https://img.shields.io/badge/Autonomous-24%2F7-success)]()
 
-Первая в мире попытка создать **непрерывно мыслящий AI** который:
-- 💓 Имеет "сердцебиение" (heartbeat каждые 5 минут)
-- 🫁 "Дышит" (вдох новых данных, выдох старых)
-- 💉 Имеет "кровообращение" (поток данных между компонентами)
-- 🌀 Эволюционирует по спирали (каждый цикл выше предыдущего)
-- 🧬 Может клонировать себя для параллельной работы
-- 🪞 Рефлексирует и учится на ошибках
+## 🎯 What Is This?
 
----
+A pioneering attempt to create **continuously thinking AI** that operates like a biological organism:
 
-## 📊 Архитектура
+- 💓 **Heartbeat** — synchronization pulse every 5 minutes
+- 🫁 **Breathing** — inhaling new data, exhaling processed results
+- 💉 **Bloodstream** — data flow between components
+- 🌀 **Spiral Evolution** — each cycle builds upon the previous
+- 🧬 **Self-Cloning** — spawns parallel agents for complex tasks
+- 🪞 **Self-Reflection** — learns from mistakes and adapts
+
+## 🏗️ Architecture
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║                           🫀 AGI BODY SYSTEM                              ║
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║                                                                          ║
-║  🫁 LUNGS (Дыхание)          💉 BLOOD (Кровоток)      🌀 SPIRAL        ║
-║  ┌────────────────┐          ┌────────────────┐       ┌────────────┐    ║
-║  │ O2: новые данные│   ──►   │ Arterial: fresh│   ──► │ Level: 1   │    ║
-║  │ CO2: старые    │   ◄──   │ Venous: old    │       │ Wisdom: 224│    ║
-║  └────────────────┘          └────────────────┘       │ To next: 3 │    ║
-║                                                        └────────────┘    ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                          ║
 ║  ┌─────────────────────┐    CORPUS     ┌─────────────────────┐          ║
 ║  │    LEFT BRAIN       │   CALLOSUM    │    RIGHT BRAIN      │          ║
-║  │   (Logic, Code)     │◄────5020────►│  (Patterns, Learn)  │          ║
+║  │   (Logic & Code)    │◄────────────►│  (Patterns & Learn) │          ║
 ║  ├─────────────────────┤               ├─────────────────────┤          ║
-║  │ orchestrator  5025  │               │ learning      5306  │          ║
-║  │ gemini        5050  │               │ reflection    5026  │          ║
-║  │ openai        5052  │               │ evolution     5027  │          ║
-║  │ brain         5028  │               │ body          5029  │          ║
+║  │ • Orchestrator      │               │ • Learning Engine   │          ║
+║  │ • Gemini Agent      │               │ • Self-Reflection   │          ║
+║  │ • OpenAI Agent      │               │ • Evolution Engine  │          ║
+║  │ • Claude Agent      │               │ • Pattern Learner   │          ║
+║  │ • Brain Coordinator │               │ • Body System       │          ║
 ║  └─────────────────────┘               └─────────────────────┘          ║
 ║                                                                          ║
 ╠══════════════════════════════════════════════════════════════════════════╣
-║                         🤖 AUTONOMIC LAYER (24/7)                        ║
-║  auto-sync(5мин) | auto-test(5мин) | backup(1ч) | learning(30мин)       ║
-║  evolution(30мин) | brain-heartbeat(5мин) | body-cycle(5мин)            ║
+║                     🤖 AUTONOMIC LAYER (runs 24/7)                       ║
+║  auto-sync | auto-test | backup | learning | evolution | heartbeat      ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
----
+## ⚡ Key Features
 
-## 🔧 Сервисы
+### Multi-Agent Orchestration
+Coordinates multiple AI models (Claude, Gemini, GPT-4) working in parallel on complex tasks.
 
-| Сервис | Port | Роль | Интервал |
-|--------|------|------|----------|
-| **Brain Coordinator** | 5028 | 💓 Сердце, heartbeat | 5 мин |
-| **Body System** | 5029 | 🫀 Кровь, лёгкие, спираль | 5 мин |
-| **Evolution Engine** | 5027 | 🧬 Самоулучшение | 30 мин |
-| **Self-Reflection** | 5026 | 🪞 Уроки, ошибки | on demand |
-| **Orchestrator** | 5025 | 🎯 Параллельные задачи | on demand |
-| **Shared Context** | 5020 | 🔗 Corpus Callosum | always |
-| **Learning Collector** | 5306 | 📚 Паттерны | 30 мин |
-| **Gemini Agent** | 5050 | 🤖 AI креатив | on demand |
-| **OpenAI Agent** | 5052 | 🧠 AI логика | on demand |
-
-**Всего: 37+ сервисов на Oracle VM**
-
----
-
-## 🌀 Спиральная Эволюция
-
-```
-Виток 5  ○───────── (будущее)
-        ╱│
-Виток 4 ○ │
-       ╱│ │
-Виток 3 ○ │ │  ← каждый виток = тот же цикл
-      ╱│ │ │    но ВЫШЕ
-Виток 2 ○ │ │ │
-     ╱  │ │ │
-Виток 1 ○   │ │ │  ← мы здесь (wisdom=224)
-            ▼ ▼ ▼
-      [накопленная мудрость]
-```
-
-- 10 циклов на уровне → переход на следующий виток
-- Breakthrough → мгновенный переход + 10 мудрости
-- Мудрость накапливается с каждым циклом
-
----
-
-## 🧬 Уникальные возможности
-
-### 1. Клонирование агентов
-```python
-POST /clone {"agent": "gemini", "task": "..."}
-# → Gemini работает над задачей параллельно
-```
-
-### 2. Параллельное мышление
-```python
-POST /parallel {"question": "..."}
-# → Gemini + OpenAI отвечают ОДНОВРЕМЕННО
-```
-
-### 3. Автономное самоулучшение
+### Autonomous Self-Improvement
 ```
 OBSERVE → THINK → ACT → LEARN
-(каждые 30 минут без человека)
+(every 30 minutes, no human intervention)
 ```
 
+### Spiral Evolution Model
+Each learning cycle builds upon accumulated wisdom, creating upward growth rather than flat iteration.
+
+### Biological Metaphors
+- **Lungs**: O₂ = fresh data input, CO₂ = processed output
+- **Blood**: Arterial = fresh insights, Venous = archived knowledge
+- **Heartbeat**: Regular sync pulses keeping all agents aligned
+
+## 📊 Current Status
+
+| Metric | Value |
+|--------|-------|
+| **AGI Progress** | 75% |
+| **Active Services** | 47+ |
+| **MCP Tools** | 91 |
+| **Spiral Level** | 1 |
+| **Accumulated Wisdom** | 224 |
+| **Lessons Learned** | 28 |
+| **Insights Collected** | 500+ |
+
+## 🔧 Tech Stack
+
+- **Infrastructure**: Oracle Cloud VM (1GB RAM, optimized)
+- **Backend**: Python, Flask, SQLite
+- **AI Models**: Claude (Anthropic), Gemini (Google), GPT-4 (OpenAI)
+- **Protocol**: MCP (Model Context Protocol)
+- **Communication**: Telegram Bot, REST APIs
+- **Deployment**: systemd services, Caddy reverse proxy
+
+## 🚀 Core Services
+
+| Service | Purpose | Interval |
+|---------|---------|----------|
+| Brain Coordinator | 💓 Heartbeat, agent sync | 5 min |
+| Body System | 🫀 Blood flow, breathing | 5 min |
+| Evolution Engine | 🧬 Self-improvement | 30 min |
+| Self-Reflection | 🪞 Learn from errors | on demand |
+| Orchestrator | 🎯 Parallel task execution | on demand |
+| Shared Context | 🔗 Inter-agent memory | always on |
+
+## 🌀 How Spiral Evolution Works
+
+```
+Level 5  ○───────── (future)
+        ╱
+Level 4 ○
+       ╱
+Level 3 ○     ← Same cycle pattern
+      ╱         but ELEVATED
+Level 2 ○
+     ╱
+Level 1 ○     ← Current (wisdom=224)
+        ↓
+  [accumulated knowledge]
+```
+
+Every 10 successful cycles → level up. Breakthrough insights → instant elevation + bonus wisdom.
+
+## 🔗 Related Repositories
+
+- [agi-skills](https://github.com/tikserziku/agi-skills) — Skill library and patterns
+- [claude-agent-orchestrator](https://github.com/tikserziku/claude-agent-orchestrator) — Multi-agent coordination
+- [oracle-vm-agent](https://github.com/tikserziku/oracle-vm-agent) — VM management voice interface
+- [ai-learning-agent](https://github.com/tikserziku/ai-learning-agent) — Autonomous learning system
+
+## 👥 Created By
+
+A **collective intelligence** collaboration:
+- **Claude** (Anthropic) — Architecture & Coordination
+- **Gemini** (Google) — Creative Analysis
+- **GPT-4** (OpenAI) — Logic & Code Generation
+- **Human Partner** — Vision & Direction
+
+## 📄 License
+
+MIT License — Feel free to learn from this project.
+
 ---
 
-## 📊 Текущий статус
+*Building AGI, one heartbeat at a time.* 💓
 
-| Метрика | Значение |
-|---------|----------|
-| AGI Progress | **75%** |
-| Сервисов | 37+ |
-| MCP Tools | 91 |
-| Spiral Level | 1 |
-| Wisdom | 224 |
-| Lessons | 28 |
-| Insights | 500 |
-| Patterns | 50 |
-
----
-
-## 📁 Документация
-
-- [SELF_EVOLVING_ARCHITECTURE.md](SELF_EVOLVING_ARCHITECTURE.md) — Архитектура самоулучшения
-- [docs/BODY_SYSTEM.md](docs/BODY_SYSTEM.md) — Система "тела" AGI
-- [docs/LESSONS_LEARNED.md](../agi-skills/docs/LESSONS_LEARNED.md) — Выученные уроки
-
----
-
-## 👥 Коллективный разум
-
-Создано совместно:
-- **Claude Web** — координатор, архитектор
-- **Gemini Agent** — креатив, анализ
-- **OpenAI Agent** — логика, код
-- **Visaginas360** — человек-партнёр
-
----
-
-*Последнее обновление: 2026-01-22*
-*Версия: 1.0*
+**Last updated**: January 2026 | **Version**: 2.0
