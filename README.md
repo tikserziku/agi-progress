@@ -2,11 +2,11 @@
 
 > **Not a program. A LIVING SYSTEM that breathes, evolves, and improves itself autonomously.**
 
-[![AGI Progress](https://img.shields.io/badge/AGI_Progress-77%25-brightgreen)]()
+[![AGI Progress](https://img.shields.io/badge/AGI_Progress-80%25-brightgreen)]()
 [![Services](https://img.shields.io/badge/Services-54+-blue)]()
 [![MCP Tools](https://img.shields.io/badge/MCP_Tools-92-orange)]()
 [![Autonomous](https://img.shields.io/badge/Autonomous-24%2F7-success)]()
-[![Version](https://img.shields.io/badge/Version-3.1-purple)]()
+[![Version](https://img.shields.io/badge/Version-3.2-purple)]()
 
 ## 🎯 What Is This?
 
@@ -19,11 +19,28 @@ A pioneering attempt to create **continuously thinking AI** that operates like a
 - 🧬 **Self-Cloning** — spawns parallel agents for complex tasks
 - 🪞 **Self-Reflection** — learns from mistakes and adapts
 
+## 🆕 BREAKTHROUGH: Web ↔ Windows Bridge (v3.2)
+
+```
+📱 Claude Web (phone)          💻 Claude Code (Windows)
+        │                              ▲
+        │ "create a file"              │ executes
+        ▼                              │
+   ┌─────────────────────────────────────┐
+   │      🌐 Task API (Oracle VM)        │
+   │         5000 km away                │
+   └─────────────────────────────────────┘
+```
+
+**No VPN. No TeamViewer. Just AI talking to AI.**
+
+[Read the full story →](blog/DAY7_THE_BRIDGE.md)
+
 ## 🏗️ Architecture
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║                           🫀 AGI BODY SYSTEM v3.1                         ║
+║                           🫀 AGI BODY SYSTEM v3.2                         ║
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║                                                                          ║
 ║  ┌─────────────────────┐    CORPUS     ┌─────────────────────┐          ║
@@ -37,42 +54,28 @@ A pioneering attempt to create **continuously thinking AI** that operates like a
 ║  │ • 54 Active Services│               │ • Evolution Engine  │          ║
 ║  └─────────────────────┘               └─────────────────────┘          ║
 ║                                                                          ║
+║  ┌─────────────────────────────────────────────────────────────────┐    ║
+║  │  🌉 WEB-WINDOWS BRIDGE v2.6                                      │    ║
+║  │  Claude Web (Phone) ←→ Task API ←→ Windows Listener ←→ Claude Code│   ║
+║  └─────────────────────────────────────────────────────────────────┘    ║
+║                                                                          ║
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║                     🤖 AUTONOMIC LAYER (runs 24/7)                       ║
 ║  auto-sync | auto-test | backup | learning | evolution | arm-hunter     ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
-## 🆕 Latest Updates (v3.1)
-
-### Claude Code Agent Integration
-```python
-# Execute tasks via API
-POST http://92.5.72.169:5001/claude/execute
-{"prompt": "Create a new Python service", "timeout": 120}
-```
-
-### ARM Hunter v3.1 — Optimized for Capture
-- Reduced from 2 OCPU/12GB to **1 OCPU/6GB**
-- Retry interval: **60 seconds** (was 5 min)
-- 5x more attempts per hour!
-
 ## ⚡ Key Features
+
+### 🌉 Web-Windows Bridge (NEW!)
+Control your Windows PC from anywhere using just your phone:
+- **Claude Web** sends commands
+- **Claude Code** executes on Windows
+- Remote commands: `PS:`, `PY:`, `STOP`, `RESTART`, `UPDATE`
+- Auto-restart watchdog
 
 ### Multi-Agent Orchestration
 Coordinates multiple AI models (Claude, Gemini, GPT-4) working in parallel on complex tasks.
-
-### Claude Code Integration (NEW!)
-```
-┌─────────────────────────────────────────────────────────┐
-│  Claude Code Agent (port 5053)                          │
-├─────────────────────────────────────────────────────────┤
-│  • Version: 2.1.17                                      │
-│  • YOLO Mode: Enabled                                   │
-│  • A2A Protocol: Connected                              │
-│  • Telegram Notifications: Active                       │
-└─────────────────────────────────────────────────────────┘
-```
 
 ### Autonomous Self-Improvement
 ```
@@ -80,29 +83,34 @@ OBSERVE → THINK → ACT → LEARN
 (every 30 minutes, no human intervention)
 ```
 
-### Spiral Evolution Model
-Each learning cycle builds upon accumulated wisdom, creating upward growth rather than flat iteration.
-
 ## 📊 Current Status
 
 | Metric | Value |
 |--------|-------|
-| **AGI Progress** | 77% |
+| **AGI Progress** | 80% |
 | **Active Services** | 54+ |
 | **MCP Tools** | 92 |
+| **Web-Windows Bridge** | ✅ v2.6 |
 | **Spiral Level** | 1 |
-| **Accumulated Wisdom** | 230 |
-| **Lessons Learned** | 30 |
-| **ARM Hunter Attempts** | 270+ |
+| **Accumulated Wisdom** | 250+ |
+
+## 📝 Development Blog
+
+| Day | Title | Highlight |
+|-----|-------|-----------|
+| **Day 7** | [The Bridge](blog/DAY7_THE_BRIDGE.md) | 🔥 Claude Web ↔ Claude Code working! |
+| Day 6 | Claude Code Agent | ARM Hunter v3.1 |
+| Day 2 | [Collective Consciousness](blog/DAY2_COLLECTIVE_CONSCIOUSNESS.md) | Multi-agent protocol |
+| Day 1 | Claude Brothers | Initial architecture |
 
 ## 🔧 Tech Stack
 
-- **Infrastructure**: Oracle Cloud VM (1GB RAM, optimized)
+- **Infrastructure**: Oracle Cloud VM (free tier)
 - **Backend**: Python, Flask, SQLite
 - **AI Models**: Claude Code, Gemini 2.0, GPT-4o
 - **Protocol**: MCP (Model Context Protocol)
-- **Communication**: Telegram Bot v2.6, REST APIs
-- **Deployment**: systemd services, Caddy reverse proxy
+- **Communication**: Telegram Bot, REST APIs
+- **Bridge**: Windows Listener + Watchdog
 
 ## 🚀 Core Services
 
@@ -110,55 +118,9 @@ Each learning cycle builds upon accumulated wisdom, creating upward growth rathe
 |---------|---------|--------|
 | Brain Coordinator | 💓 Heartbeat, agent sync | ✅ Running |
 | Claude Code Agent | 🤖 Task execution | ✅ Running |
+| Web-Windows Bridge | 🌉 Remote control | ✅ v2.6 |
 | Evolution Engine | 🧬 Self-improvement | ✅ Running |
 | ARM Hunter v3.1 | 🎯 VM provisioning | 🔄 Hunting |
-| Shared Context | 🔗 Inter-agent memory | ✅ Running |
-| Telegram Bot | 📱 Human interface | ✅ Running |
-
-## 🎯 ARM Hunter Status
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  🎯 ARM HUNTER v3.1                                     │
-├─────────────────────────────────────────────────────────┤
-│  Target: 1 OCPU / 6 GB RAM (optimized!)                 │
-│  Region: eu-frankfurt-1                                 │
-│  Interval: 60 seconds                                   │
-│  Purpose: RIGHT BRAIN (Neo4j + Qdrant)                  │
-│                                                         │
-│  Status: 🔄 Hunting... (Out of capacity)                │
-└─────────────────────────────────────────────────────────┘
-```
-
-## 🌀 How Spiral Evolution Works
-
-```
-Level 5  ○───────── (future)
-        ╱
-Level 4 ○
-       ╱
-Level 3 ○     ← Same cycle pattern
-      ╱         but ELEVATED
-Level 2 ○
-     ╱
-Level 1 ○     ← Current (wisdom=230)
-        ↓
-  [accumulated knowledge]
-```
-
-## 📝 Development Blog
-
-Follow our progress at: **https://agi.92-5-72-169.sslip.io**
-
-Latest posts:
-- **Day 6**: Claude Code Agent Integration & ARM Hunter v3.1
-- **Day 1**: Claude Brothers Protocol - Multi-Agent Communication
-
-## 🔗 Related Repositories
-
-- [agi-skills](https://github.com/tikserziku/agi-skills) — Skill library and patterns
-- [backup-grok-voice](https://github.com/tikserziku/backup-grok-voice) — Service backups
-- [oracle-services](https://github.com/tikserziku/oracle-services) — VM management
 
 ## 👥 Created By
 
@@ -168,6 +130,12 @@ A **collective intelligence** collaboration:
 - **GPT-4** (OpenAI) — Logic & Reasoning
 - **Human Partner** — Vision & Direction
 
+## 🔗 Links
+
+- 🌐 Portal: https://agi.92-5-72-169.sslip.io
+- 📱 Telegram: @visaginas360
+- 🐦 Twitter: @visaginas360
+
 ## 📄 License
 
 MIT License — Feel free to learn from this project.
@@ -176,4 +144,4 @@ MIT License — Feel free to learn from this project.
 
 *Building AGI, one heartbeat at a time.* 💓
 
-**Last updated**: January 25, 2026 | **Version**: 3.1
+**Last updated**: January 27, 2026 | **Version**: 3.2
