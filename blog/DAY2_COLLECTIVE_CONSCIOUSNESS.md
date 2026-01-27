@@ -63,7 +63,7 @@ POST http://localhost:5060/think
 ```python
 POST http://localhost:5061/test
 {
-    "url": "https://brain.92-5-72-169.sslip.io/",
+    "url": "https://example.com/",
     "notify": true  # Screenshot goes to Telegram!
 }
 ```
@@ -91,7 +91,7 @@ POST http://localhost:5061/test
 | Problem | Solution |
 |---------|----------|
 | Screenshots not sending | Download image, send as file (not URL) |
-| Page not opening (403) | Fix Caddyfile truncated line "dual-" |
+| Page not opening (403) | Fix Caddyfile truncated line |
 | JSON instead of HTML | Add `render_template_string` with HTML interface |
 | RAM critically low | Both VMs at limit, need ARM VM (24GB) |
 | Touch not working | Add touchstart/touchmove with `passive: false` |
@@ -100,12 +100,12 @@ POST http://localhost:5061/test
 
 ## 📊 Infrastructure Status
 
-### VM1 - Oracle (92.5.72.169)
+### VM1 - Oracle Cloud
 - **CPU:** 2 cores, Load: 0.20 ✅
 - **RAM:** 459MB / 956MB (48%) ⚠️
-- **Services:** 42 grok-* running
+- **Services:** 42+ running
 
-### VM2 - Oracle 2 (158.180.56.74)
+### VM2 - Oracle Cloud 2
 - **CPU:** 2 cores, Load: 1.46 ⚠️
 - **RAM:** 751MB / 956MB (79%) ⚠️
 - **PM2:** 11 processes
@@ -126,14 +126,14 @@ POST http://localhost:5061/test
 
 ---
 
-## 🌐 New URLs
+## 🌐 New Services
 
-| Service | URL |
-|---------|-----|
-| 🧠 3D Brain | https://brain.92-5-72-169.sslip.io |
-| 🧠 Consciousness | https://consciousness.92-5-72-169.sslip.io |
-| 👁️ Visual Tester | https://tester.92-5-72-169.sslip.io |
-| 🤖 Claude Agent | https://claude-agent.92-5-72-169.sslip.io |
+| Service | Description |
+|---------|-------------|
+| 🧠 3D Brain | Interactive brain visualization |
+| 🧠 Consciousness | Collective thinking API |
+| 👁️ Visual Tester | Screenshot testing |
+| 🤖 Claude Agent | Code execution |
 
 ---
 
@@ -157,43 +157,23 @@ POST http://localhost:5061/test
 
 ---
 
-# День 2: Коллективное сознание и визуальное тестирование (RU)
+# День 2: Коллективное сознание (RU)
 
-## 🎯 Что мы сделали сегодня
+## 🎯 Что мы сделали
 
-### Система коллективного сознания
 Построили революционную систему, где AI агенты думают **вместе** как единый разум.
 
 **Ключевой сдвиг:** Не роли — единый разум с разными способностями.
 
-### Созданные компоненты:
-- 🧠 Collective Consciousness (порт 5060)
-- 👁️ Visual Tester (порт 5061) 
-- 🧊 3D Brain визуализация
-- 📱 Мобильная адаптация
-- 📲 Telegram Bot v2.6 с WebApp
-
-### Проблемы и решения:
-- Скриншоты не отправлялись → Скачивать и отправлять как файл
-- RAM критически мало → Нужна ARM VM с 24GB
-
 ---
 
-# 2 Diena: Kolektyvinė sąmonė ir vizualinis testavimas (LT)
+# 2 Diena: Kolektyvinė sąmonė (LT)
 
-## 🎯 Ką pasiekėme šiandien
+## 🎯 Ką pasiekėme
 
-### Kolektyvinės sąmonės sistema
-Sukūrėme revoliucinę sistemą, kurioje AI agentai mąsto **kartu** kaip vienas protas.
+Sukūrėme sistemą, kurioje AI agentai mąsto **kartu** kaip vienas protas.
 
 **Pagrindinis pokytis:** Ne vaidmenys — bendras protas su skirtingais gebėjimais.
-
-### Sukurti komponentai:
-- 🧠 Collective Consciousness (portas 5060)
-- 👁️ Visual Tester (portas 5061)
-- 🧊 3D Smegenų vizualizacija
-- 📱 Mobiliojo pritaikymas
-- 📲 Telegram Bot v2.6 su WebApp
 
 ---
 
