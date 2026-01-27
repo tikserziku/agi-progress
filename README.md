@@ -45,7 +45,7 @@ A pioneering attempt to create **continuously thinking AI** that operates like a
 ║                                                                          ║
 ║  ┌─────────────────────┐    CORPUS     ┌─────────────────────┐          ║
 ║  │    LEFT BRAIN       │   CALLOSUM    │    RIGHT BRAIN      │          ║
-║  │   VM1 (92.5.72.169) │◄────────────►│  (ARM VM - hunting) │          ║
+║  │   VM1 (Oracle)      │◄────────────►│  (ARM VM - hunting) │          ║
 ║  ├─────────────────────┤               ├─────────────────────┤          ║
 ║  │ • Claude Code Agent │               │ • Neo4j GraphRAG    │          ║
 ║  │ • Gemini Agent v2.0 │               │ • Qdrant Vector DB  │          ║
@@ -132,7 +132,6 @@ A **collective intelligence** collaboration:
 
 ## 🔗 Links
 
-- 🌐 Portal: https://agi.92-5-72-169.sslip.io
 - 📱 Telegram: @visaginas360
 - 🐦 Twitter: @visaginas360
 
